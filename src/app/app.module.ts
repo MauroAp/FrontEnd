@@ -19,6 +19,10 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { PersonaService } from './service/persona.service';
 import { HomeComponent } from './componentes/home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { HardysoftComponent } from './componentes/hardysoft/hardysoft.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 
 
@@ -34,11 +38,14 @@ import { HeaderComponent } from './componentes/header/header.component';
     HardSoftComponent,
     FooterComponent,
     LoginComponent,
-    NgModule,
 
     AcercaDeComponent,
      HomeComponent,
      HeaderComponent,
+     EducacionComponent,
+     ExperienciaComponent,
+     HardysoftComponent,
+     ProyectosComponent
    
     
   ],

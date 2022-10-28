@@ -1,4 +1,45 @@
-div{
+.row{
+    background-color: #010005;
+
+    }
+
+    div{
+        background-color: #010005;
+        text-align: left;
+    }
+    h5{
+        color: #3a03bb;
+      }
+
+    h1{
+        margin-left: 20px;
+        font-style: italic;
+        color: #3a03bb;
+    }
+
+ .circulo{
+    margin-left: 120px;
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  align-content: space-between;
+ }
+
+ label {
+    color: cadetblue;
+  }
+  p{
+    color: cadetblue;
+  }
+  @media(max-width:576px){
+    .circulo{
+      margin-left: 20px;
+    }
+  }
+
+/* div{
     background-color:#040b14;;
 }
 
@@ -18,4 +59,4 @@ div{
 .img-proyecto{
     box-shadow: 10px 10px 30px green;
     
-}
+} */
