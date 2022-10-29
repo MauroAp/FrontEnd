@@ -21,7 +21,6 @@ import { HomeComponent } from './componentes/home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
-import { HardysoftComponent } from './componentes/hardysoft/hardysoft.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 
@@ -44,7 +43,7 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
      HeaderComponent,
      EducacionComponent,
      ExperienciaComponent,
-     HardysoftComponent,
+     
      ProyectosComponent
    
     

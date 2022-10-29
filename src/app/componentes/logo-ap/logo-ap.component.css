@@ -4,15 +4,21 @@
     align-items: center;
 }
 
-#logo-ap>
+#logo
 {
     width: 100px;
-}
+} 
+#twitter2{
+    width: 150px;
+    margin-right: 0.5em;
+}  
 #twitter{
-    width: 100px;
+    width: 50px;
+    margin-right: 0.5em;
 }
 #github{
-    width: 100px;
+    width: 50px;
+    margin-right: 0.5em;
 }
 .redes{
     margin-right: 0.5em;
