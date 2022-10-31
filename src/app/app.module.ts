@@ -22,6 +22,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { AcercadeComponent } from './componentes/acercade/acercade.component';
 
 
 
@@ -44,7 +45,9 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
      EducacionComponent,
      ExperienciaComponent,
      
-     ProyectosComponent
+     ProyectosComponent,
+           AcercadeComponent,
+           
    
     
   ],

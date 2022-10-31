@@ -1,14 +1,12 @@
 <div class="bodyimg">
-  <div class="loginBox"> <img class="user" src="" height="100px" width="100px" alt="avatar">
+  <div class="loginBox"> 
       <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
-      <!-- Email input -->
     <div class="form-outline mb-4">
       <label for="nombreUsuario">Nombre Usuario</label>
       <input type="text" name="nombreUsuario" id="nombreUsuario" class="form-control"
       [(ngModel)]="nombreUsuario" required>
     </div>
   
-    <!-- Password input -->
     <div class="form-outline mb-4">
       <label for="password">Contraseña</label>
       <input type="password" name="password" id="password" class="form-control"
@@ -25,3 +23,5 @@
   </div>    
   </div>
   </div>
+
+  

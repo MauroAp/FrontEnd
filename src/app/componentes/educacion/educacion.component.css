@@ -1,15 +1,15 @@
 div{
-    background-color: #010005;
+    background-color: #7f7d81;
     text-align: left;
 }
 
 h5{
-    color: #3a03bb;
+    color: #ffffff;
   }
     h1{
         margin-left: 20px;
         font-style: italic;
-        color: #3a03bb;
+        color: #ffffff;
     }
 
 .accordion-button{
@@ -28,3 +28,11 @@ img{
 label {
     color: cadetblue;
   }
+
+  .row{
+    border-top-style: solid;
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: solid;
+  }
+  

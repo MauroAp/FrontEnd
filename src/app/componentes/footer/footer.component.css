@@ -1,5 +1,5 @@
 .row{
-    background-color:black;
+    background-color:#033277;
     
 }
 footer{color: #fefefe;
@@ -9,3 +9,10 @@ footer{color: #fefefe;
     text-align: center;
     box-shadow: 2px -2px 5px #999;
 }
+.row{
+    border-top-style: solid;
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: solid;
+  }
+  

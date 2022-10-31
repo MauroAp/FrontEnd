@@ -1,42 +1,55 @@
 div{
-    background-color: #010005;
+    background-color: #7f7d81;
+
 }
+.row{
+    border-top-style: solid;
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: solid;
+          
+
+
+  }
+  h1{
+    color: #ffffff;
+
+  }
 h5{
-    color: #3a03bb;
+    color: #ffffff;
   }
   label {
     color: cadetblue;
+
   }
   #textoborrar{
     color:cadetblue;
   }
 
 br{
-    background-color: #010005;
+    background-color: #7f7d81;
 }
 h1{
     margin-left: 20px;
     font-style: italic;
-    color: #3a03bb;
+    
+    /* color: hwb(0 100% 0%); */
 }
 .card-body{
-    background-color: grey;
     border-color: blue;
 }
 .card w-75{
     border-width: medium;
 }
 footer{
-    background-color: #010005;
-    color: #fefefe;
+    background-color: #7f7d81;
     text-align: center;
-    text-shadow: dimgray;
 }
 #creacion{
     text-align: right;
 }
 .row{
-    background-color: #010005;
+    background-color: #7f7d81;
 }
 @media(max-width:576px){
    #tarjeta{

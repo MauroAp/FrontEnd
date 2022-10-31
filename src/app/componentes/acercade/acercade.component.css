@@ -3,8 +3,19 @@
 }
 
 div{
-    background-color: #010005;
+  /*   background-color: #3876c7; */
+  background-color: #2b38ee;
+
     text-align: center;
+    
+  
+
+}
+.row{
+  border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
 }
 
 /*id fotodeperfil*/
@@ -13,7 +24,7 @@ div{
 position:absolute;
 width: 10%;
 border-radius: 100%;
-box-shadow: 3px 3px 3px blue;
+box-shadow: 3px 3px 3px aliceblue;
 left: 7%;
 top: 720px;
   }
@@ -30,7 +41,7 @@ top: 720px;
   position:absolute;
   width: 10%;
   border-radius: 100%;
-  box-shadow: 3px 3px 3px blue;
+  box-shadow: 3px 3px 3px aliceblue;
   left: 7%;
   top: 1100px;
     }
@@ -56,10 +67,10 @@ top: 720px;
   }
 h1{
   font-style: italic;
-  color: #3a03bb;
+  color: aliceblue;
 }
 h5{
-  color: #3a03bb;
+  color: aliceblue;
 }
 #mail, #telefono, #ciudad{
   font-style: italic;

@@ -1,16 +1,16 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { PersonaService } from 'src/app/service/persona.service';
 import { FormControl, NgForm } from '@angular/forms';
-import { TokenService } from 'src/app/service/token.service';
 import { Persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/service/persona.service';
+import { TokenService } from 'src/app/service/token.service';
 
 @Component({
-  selector: 'app-acerca-de',
-  templateUrl: './acerca-de.component.html',
-  styleUrls: ['./acerca-de.component.css']
+  selector: 'app-acercade',
+  templateUrl: './acercade.component.html',
+  styleUrls: ['./acercade.component.css']
 })
-export class AcercaDeComponent implements OnInit {
+export class  AcercadeComponent implements OnInit{
   public personas: Persona[] = []; 
   public editPersona: Persona | undefined;
   public deletePersona!: Persona;
