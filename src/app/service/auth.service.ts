@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  private url = 'https://backmauro.herokuapp.com/auth/';
+  private url = 'https://backend-production-2440.up.railway.app/auth/';
 
 
 

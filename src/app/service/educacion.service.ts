@@ -9,7 +9,7 @@ import { Estudios } from '../model/educacion';
 export class EducacionService {
   
 
-  private apiServerUrl = 'https://backmauro.herokuapp.com/estudios/';
+  private apiServerUrl = 'https://backend-production-2440.up.railway.app/estudios/';
   //
 
   constructor(private http: HttpClient) { }

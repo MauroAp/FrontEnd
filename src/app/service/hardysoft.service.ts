@@ -8,7 +8,7 @@ import { Skill } from '../model/hardysoft';
 })
 export class HardysoftService {
 
-  private apiServerUrl = 'https://backmauro.herokuapp.com/skills/';
+  private apiServerUrl = 'https://backend-production-2440.up.railway.app/skills/';
 
   constructor(private http: HttpClient) { }
 

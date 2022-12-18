@@ -22,11 +22,10 @@ div{
   @media(min-width:576px){
   #fotodeperfil{
 position:absolute;
-width: 10%;
+width: 50%;
 border-radius: 100%;
 box-shadow: 3px 3px 3px aliceblue;
 left: 7%;
-top: 720px;
   }
   #nombre1{
     margin-top: 7%;
@@ -39,11 +38,10 @@ top: 720px;
 @media(max-width:576px){
     #fotodeperfil{
   position:absolute;
-  width: 10%;
+  width: 50%;
   border-radius: 100%;
   box-shadow: 3px 3px 3px aliceblue;
   left: 7%;
-  top: 1100px;
     }
    #nombre1{
     margin-top: 7%;
